@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import styled, {keyframe} from 'styled-components';
 import {BrowserRouter as Router, Route, Link,Switch} from 'react-router-dom';
-import almafa from './almafa';
-import Welcome from './almafa';
 
 const Wrapper = styled.div`
     background-color: white;

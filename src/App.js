@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 //import './App.css';
 import styled, {keyframe} from 'styled-components';
-import Welcome from './almafa';
 import MyFooter from './MyFooter';
 import Links from './Links';
 
