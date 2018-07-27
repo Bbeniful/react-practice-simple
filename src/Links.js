@@ -11,13 +11,13 @@ class Links extends Component {
       return (
         <Wrapper className="container">
           <div className="row">
-            <div className="col">
+            <div className="col text-center">
                 <Link to="/about">AbouteMe</Link> 
             </div>
-            <div className="col">
+            <div className="col text-center">
                 <Link to="/contact">Contact</Link> 
             </div>
-            <div className="col">
+            <div className="col text-center">
                 <Link to="/">Home</Link> 
             </div>
           </div>

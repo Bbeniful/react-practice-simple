@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled, {keyframe} from 'styled-components';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 const simpleWhite = styled.div`
   color: white;
 `;
@@ -7,7 +8,7 @@ const simpleWhite = styled.div`
 class Contact extends Component {
     render() {
       return (
-        <simpleWhite>Contact</simpleWhite>
+        <simpleWhite><Link to="/">Contact</Link></simpleWhite>
       )
     }
   }

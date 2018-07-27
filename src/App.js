@@ -26,7 +26,6 @@ class App extends Component {
          <Wrapper>
             <Router>
               <div>
-              <Links/>
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={AboutMe} />
                 <Route path="/contact" component={Contact} />

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled, {keyframe} from 'styled-components';
+import Links from './Links';
 const simpleWhite = styled.div`
   color: white;
 `;
@@ -7,7 +8,10 @@ const simpleWhite = styled.div`
 class Home extends Component {
     render() {
       return (
-        <simpleWhite>Home</simpleWhite>
+        <div>
+          <Links/>
+          <simpleWhite>Home</simpleWhite>
+        </div>
       )
     }
   }
